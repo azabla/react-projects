@@ -1,0 +1,40 @@
+.father{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.father button{
+    font-size: 1.5em;
+    font-size: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background: rgb(72, 67, 80);
+    cursor: pointer;
+}
+.father button:hover{
+    background: rgb(72, 67, 60);
+}
+.accordian{
+    width: 500px;
+}
+.item{
+    background: hsl(221, 16%, 63%);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.title {
+    color: hsl(239, 47%, 43%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .content{
+    color: #ffffff;
+    height: auto;
+  }
