@@ -1,0 +1,142 @@
+/* 
+
+
+.github-profile-container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .input-wrapper button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00f4ec;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .user{
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid;
+  }
+  
+  .avatar{
+      height: 150px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+  }
+  
+  
+  .name-container{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  
+  .name-container p{
+      margin: 0px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .profile-info div{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 20px;
+      font-weight: bold;
+  } */
+
+
+
+  .container-0{
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  .container-1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .container-1 input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f0f0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .container-1 input:focus {
+    outline: none;
+    border-color: #cbd9ef;
+    box-shadow: 0 0 4px rgba(124, 156, 206, 0.5);
+  }
+  .container-1 button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00f4ec;
+    color: #000;
+    cursor: pointer;
+  }
+  .container-1 button:hover{
+    background-color: #23cec8;
+  }
+  .user{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.avatar{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-info div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;}
